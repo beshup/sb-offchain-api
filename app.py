@@ -1,7 +1,10 @@
-from flask import Flask
+from flask import Flask, jsonify
 from bs4 import BeautifulSoup
+from flask_cors import CORS, cross_origin
 import requests
 app = Flask(__name__)
+cors=CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 #TODO: add onto API to hold top performers of each week, but each static week
 
@@ -21,6 +24,7 @@ hardchoded_dictionary_for_now = {
 
 
 @app.route('/to_send_per_entity/<int:entity_id>/<int:shares_owned>/<int:shares_in_circulation>/<int:dividend_fund>', methods=['GET'])
+@cross_origin()
 def to_send(entity_id, shares_owned, shares_in_circulation, dividend_fund):
     entity_name = hardchoded_dictionary_for_now[entity_id]
     fantasy_table = returnFantasyTable()
@@ -47,16 +51,19 @@ def to_send(entity_id, shares_owned, shares_in_circulation, dividend_fund):
 
 
 @app.route('/grip_league', methods=['GET'])
+@cross_origin()
 def grip_league():
-    return hardchoded_league(returnPlayerScores())
+    return jsonify(hardchoded_league(returnPlayerScores()))
 
 
 @app.route('/grip_player/<int:entity_id>', methods=['GET'])
+@cross_origin()
 def grip_player(entity_id):
     return hardchoded_league(returnPlayerScores())[entity_id]  
 
 
 @app.route('/player_sft_metadata/<int:token_id>', methods=['GET'])
+@cross_origin()
 def player_sft_metadata(token_id):
     player_data = hardchoded_league(returnPlayerScores())[token_id]
     return {"name": player_data["name"], "team": player_data["team"], "token_id": player_data["token_id"], "image": player_data["image"]}
