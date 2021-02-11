@@ -29,15 +29,17 @@ def to_send(entity_id, shares_owned, shares_in_circulation, dividend_fund):
     rows = list(fantasy_table.children)
     sum_scores = 0.0
     res = 0
+    row_counter=0
     for row in rows:
-        if row != rows[0]:
+        if row != rows[0] and row_counter < 11:
             sum_scores += float(list(row.children)[3].get_text())
+        row_counter += 1
 
     for row in rows:
         if row != rows[0]:
             if entity_name == list(list(row.children)[1])[0].get_text():
                 entity_score_share = float(list(row.children)[3].get_text()) / sum_scores
-                res = (shares_owned/shareS_in_circulation)*entity_score_share*dividendFund
+                res = (shares_owned/shares_in_circulation)*entity_score_share*dividend_fund
                 break
            
     
@@ -52,10 +54,10 @@ def grip_league():
 
     for row in rows:
         if row != rows[0]:
-            player_scores.push(float(list(row.children)[3].get_text()))
+            player_scores.append(float(list(row.children)[3].get_text()))
 
     # lol harcoded cuz we work and we have no time to do things
-    return hardchoded_leagues(player_scores)
+    return hardchoded_league(player_scores)[0]
 
 
 def returnFantasyTable():
@@ -81,4 +83,4 @@ def hardchoded_league(player_scores):
     ]
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=80, debug=False)
+    app.run()
