@@ -57,7 +57,7 @@ def grip_league():
             player_scores.append(float(list(row.children)[3].get_text()))
 
     # lol harcoded cuz we work and we have no time to do things
-    return hardchoded_league(player_scores)[0]
+    return hardchoded_league(player_scores)
 
 
 def returnFantasyTable():
@@ -83,4 +83,4 @@ def hardchoded_league(player_scores):
     ]
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", debug=False)
