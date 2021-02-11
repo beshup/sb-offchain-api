@@ -53,7 +53,7 @@ def to_send(entity_id, shares_owned, shares_in_circulation, dividend_fund):
 @app.route('/grip_league', methods=['GET'])
 @cross_origin()
 def grip_league():
-    return jsonify(hardchoded_league(returnPlayerScores()))
+    return jsonify(hardchoded_league(returnPlayerScores())[0:10])
 
 
 @app.route('/grip_player/<int:entity_id>', methods=['GET'])
