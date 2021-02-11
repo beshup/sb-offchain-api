@@ -51,7 +51,7 @@ def grip_league():
     return hardchoded_league(returnPlayerScores())
 
 
-@app.route('/player_sft_metadata/<int:token_id>'. methods=['GET'])
+@app.route('/player_sft_metadata/<int:token_id>', methods=['GET'])
 def player_sft_metadata(token_id):
     player_data = hardchoded_league(returnPlayerScores())[token_id]
     return {"name": player_data["name"], "team": player_data["team"], "token_id": player_data["token_id"], "image": player_data["image"]}
