@@ -6,7 +6,7 @@ app = Flask(__name__)
 cors=CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-#TODO: add onto API to hold top performers of each week, but each static week
+#TODO: add onto API to hold top performers of each week, but each static week, not in the past week
 
 # in db in future LOLs centralized for now
 hardchoded_dictionary_for_now = {
@@ -103,6 +103,16 @@ def hardchoded_league(player_scores):
         {"name": "Damian Lillard", "team": "Portland Trailblazers", "position": "G", "fantasy_score": player_scores[7], "token_id": 7, "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203081.png"},
         {"name": "Kyrie Irving", "team": "Brooklyn Nets", "position": "G", "fantasy_score": player_scores[8], "token_id": 8, "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/202681.png"},
         {"name": "James Harden", "team": "Brooklyn Nets", "position": "G", "fantasy_score": player_scores[9], "token_id": 9, "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201935.png"},
+        {"name": "Nikola Jokic - 2020/2021 Champion", "team": "Denver Nuggets", "position": "C", "fantasy_score": player_scores[0], "token_id": 10, "image": "http://upl.stack.com/wp-content/uploads/2017/03/30194839/Nikola-Jokic-Passport-STACK.jpg"},
+        {"name": "Karl-Anthony Towns - 2020/2021 Champion", "team": "Minnesota Timberwolves", "position": "C", "fantasy_score": player_scores[1], "token_id": 11, "image": "https://i.pinimg.com/originals/d9/ff/3d/d9ff3d64062e612621054e7f25abae3e.jpg"},
+        {"name": "Joel Embiid - 2020/2021 Champion", "team": "Philadelphia 76ers", "position": "C", "fantasy_score": player_scores[2], "token_id": 12, "image": "https://fadeawayworld.net/wp-content/uploads/2020/03/embiid-hair.jpg"},
+        {"name": "Kawhi Leonard - 2020/2021 Champion", "team": "Los Angeles Clippers", "position": "F", "fantasy_score": player_scores[3], "token_id": 13, "image": "https://news4sanantonio.com/resources/media/eb577c85-6fc4-4435-9ffa-cd58907af55b-large3x4_kawhileonardmediaday.jpg?1543202883092"},
+        {"name": "Kevin Durant - 2020/2021 Champion", "team": "Brooklyn Nets", "position": "F", "fantasy_score": player_scores[4], "token_id": 14, "image": "https://ftw.usatoday.com/wp-content/uploads/sites/90/2017/07/screen-shot-2017-07-12-at-5-41-24-pm.jpg?w=1000&h=600&crop=1"},
+        {"name": "Stephen Curry - 2020/2021 Champion", "team": "Golden State Warriors", "position": "G", "fantasy_score": player_scores[5], "token_id": 15, "image": "https://www.quotemaster.org/images/5a/5ad2500c8cb76420f77e792924e19062.jpg"},
+        {"name": "C.J. McCollum - 2020/2021 Champion", "team": "Portland Trailblazers", "position": "G", "fantasy_score": player_scores[6], "token_id": 16, "image": "http://www.booshsports.com/wp-content/uploads/2017/02/cj-mccollum-game-winner-blazers.jpg"},
+        {"name": "Damian Lillard - 2020/2021 Champion", "team": "Portland Trailblazers", "position": "G", "fantasy_score": player_scores[7], "token_id": 17, "image": "https://ftw.usatoday.com/wp-content/uploads/sites/90/2019/04/screen-shot-2019-04-23-at-11.17.38-pm.jpg?w=1000&h=600&crop=1"},
+        {"name": "Kyrie Irving - 2020/2021 Champion", "team": "Brooklyn Nets", "position": "G", "fantasy_score": player_scores[8], "token_id": 18, "image": "https://fadeawayworld.com/wp-content/uploads/2018/02/Kyrie-Irving-reveals-his-flat-earth-theory.jpg"},
+        {"name": "James Harden - 2020/2021 Champion", "team": "Brooklyn Nets", "position": "G", "fantasy_score": player_scores[9], "token_id": 19, "image": "https://img.bleacherreport.net/img/images/photos/003/543/006/f7677101f60d5f44095f494f3fb8dd0b_crop_north.jpg?1447001027&w=3072&h=2048"},
     ]
 
 if __name__ == '__main__':
