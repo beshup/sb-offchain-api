@@ -51,7 +51,7 @@ def grip_league():
     return hardchoded_league(returnPlayerScores())
 
 
-@app.route('grip_player/<int:entity_id>', methods=['GET'])
+@app.route('/grip_player/<int:entity_id>', methods=['GET'])
 def grip_player(entity_id):
     return hardchoded_league(returnPlayerScores())[entity_id]  
 
