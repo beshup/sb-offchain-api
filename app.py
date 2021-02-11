@@ -48,16 +48,13 @@ def to_send(entity_id, shares_owned, shares_in_circulation, dividend_fund):
 
 @app.route('/grip_league', methods=['GET'])
 def grip_league():
-    fantasy_table = returnFantasyTable()
-    rows = list(fantasy_table.children)
-    player_scores = []
+    return hardchoded_league(returnPlayerScores())
 
-    for row in rows:
-        if row != rows[0]:
-            player_scores.append(float(list(row.children)[3].get_text()))
 
-    # lol harcoded cuz we work and we have no time to do things
-    return hardchoded_league(player_scores)
+@app.route('/player_sft_metadata/<int:token_id>'. methods=['GET'])
+def player_sft_metadata(token_id):
+    player_data = hardchoded_league(returnPlayerScores())[token_id]
+    return {"name": player_data["name"], "team": player_data["team"], "token_id": player_data["token_id"], "image": player_data["image"]}
 
 
 def returnFantasyTable():
@@ -68,6 +65,20 @@ def returnFantasyTable():
 
     return page.find("table", attrs={"class": "datatable"})
 
+
+def returnPlayerScores():
+    fantasy_table = returnFantasyTable()
+    rows = list(fantasy_table.children)
+    player_scores = []
+
+    for row in rows:
+        if row != rows[0]:
+            player_scores.append(float(list(row.children)[3].get_text()))
+
+    return player_scores        
+
+
+# lol harcoded cuz we work and we have no time to do things
 def hardchoded_league(player_scores):
     return [
         {"name": "Nikola Jokic", "team": "Denver Nuggets", "position": "C", "fantasy_score": player_scores[0], "token_id": 0, "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png"},
