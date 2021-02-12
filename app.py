@@ -46,8 +46,7 @@ def to_send(entity_id, shares_owned, shares_in_circulation, dividend_fund):
                 res = (shares_owned/shares_in_circulation)*entity_score_share*dividend_fund
                 break
            
-    
-    return {"to_send": res}
+    return {"to_send": int(res)}
 
 
 @app.route('/grip_league', methods=['GET'])
