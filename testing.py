@@ -81,6 +81,9 @@ for element in main_data:
         if name == elem["name"]:
             new.append({
                 'name': name,
+                'position': element['position'],
+                'team': element['team'],
+                'fantasy_points': element['fantasy_points'],
                 'pic': elem['pic'],
                 'token_id': element['fantasy_rank']
             })
