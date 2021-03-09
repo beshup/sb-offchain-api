@@ -1,394 +1,396 @@
-[
-    {
-        "name": "Nikola Jokic",
-        "position": "PF,C",
-        "team": "DEN",
-        "fantasy_points": "55.12",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Jokic_Nikola_den20.jpg",
-        "token_id": "1"
-    },
-    {
-        "name": "Giannis Antetokounmpo",
-        "position": "PF,C",
-        "team": "MIL",
-        "fantasy_points": "54.14",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Antetokounmpo_Giannis_mil20.jpg",
-        "token_id": "2"
-    },
-    {
-        "name": "Joel Embiid",
-        "position": "PF,C",
-        "team": "PHI",
-        "fantasy_points": "52.37",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Embiid_Joel_phi20.jpg",
-        "token_id": "3"
-    },
-    {
-        "name": "Luka Doncic",
-        "position": "PG,SG",
-        "team": "DAL",
-        "fantasy_points": "50.98",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Doncic_Luka_dal20.jpg",
-        "token_id": "4"
-    },
-    {
-        "name": "James Harden",
-        "position": "PG,SG",
-        "team": "BRO",
-        "fantasy_points": "50.56",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Harden_James_hou19.jpg",
-        "token_id": "5"
-    },
-    {
-        "name": "Bradley Beal",
-        "position": "SG,SF",
-        "team": "WAS",
-        "fantasy_points": "46.88",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Beal_Bradley_was20.jpg",
-        "token_id": "6"
-    },
-    {
-        "name": "Kevin Durant",
-        "position": "SF,PF",
-        "team": "BRO",
-        "fantasy_points": "46.76",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Durant_Kevin_bkn20.jpg",
-        "token_id": "7"
-    },
-    {
-        "name": "LeBron James",
-        "position": "PG,SG,SF",
-        "team": "LAL",
-        "fantasy_points": "46.50",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/James_LeBron_lal20.jpg",
-        "token_id": "8"
-    },
-    {
-        "name": "Nikola Vucevic",
-        "position": "C",
-        "team": "ORL",
-        "fantasy_points": "46.32",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Vucevic_Nikola_orl20.jpg",
-        "token_id": "9"
-    },
-    {
-        "name": "Damian Lillard",
-        "position": "PG",
-        "team": "POR",
-        "fantasy_points": "45.91",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Lillard_Damian_por20.jpg",
-        "token_id": "10"
-    },
-    {
-        "name": "Stephen Curry",
-        "position": "PG,SG",
-        "team": "GSW",
-        "fantasy_points": "45.15",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Curry_Stephen_gsw20.jpg",
-        "token_id": "11"
-    },
-    {
-        "name": "Kawhi Leonard",
-        "position": "SG,SF",
-        "team": "LAC",
-        "fantasy_points": "44.66",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Leonard_Kawhi_lac20.jpg",
-        "token_id": "12"
-    },
-    {
-        "name": "Jimmy Butler",
-        "position": "SF,PF",
-        "team": "MIA",
-        "fantasy_points": "44.65",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Butler_Jimmy_mia20.jpg",
-        "token_id": "13"
-    },
-    {
-        "name": "Karl-Anthony Towns",
-        "position": "C",
-        "team": "MIN",
-        "fantasy_points": "43.93",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Towns_Karlanthony_min20.jpg",
-        "token_id": "14"
-    },
-    {
-        "name": "Anthony Davis",
-        "position": "PF,C",
-        "team": "LAL",
-        "fantasy_points": "43.68",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Davis_Anthony_lal20.jpg",
-        "token_id": "15"
-    },
-    {
-        "name": "Russell Westbrook",
-        "position": "PG",
-        "team": "WAS",
-        "fantasy_points": "43.64",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Westbrook_Russell_was20.jpg",
-        "token_id": "16"
-    },
-    {
-        "name": "Kyrie Irving",
-        "position": "PG",
-        "team": "BRO",
-        "fantasy_points": "43.61",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Irving_Kyrie_bkn20.jpg",
-        "token_id": "17"
-    },
-    {
-        "name": "Julius Randle",
-        "position": "PF,C",
-        "team": "NYK",
-        "fantasy_points": "42.97",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Randle_Julius_nyk20.jpg",
-        "token_id": "18"
-    },
-    {
-        "name": "Domantas Sabonis",
-        "position": "PF,C",
-        "team": "IND",
-        "fantasy_points": "42.82",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Sabonis_Domantas_ind20.jpg",
-        "token_id": "19"
-    },
-    {
-        "name": "Trae Young",
-        "position": "PG",
-        "team": "ATL",
-        "fantasy_points": "42.24",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Young_Trae_atl20.jpg",
-        "token_id": "20"
-    },
-    {
-        "name": "Jayson Tatum",
-        "position": "SF,PF",
-        "team": "BOS",
-        "fantasy_points": "42.12",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Tatum_Jayson_bos20.jpg",
-        "token_id": "22"
-    },
-    {
-        "name": "Zach LaVine",
-        "position": "SG,SF",
-        "team": "CHI",
-        "fantasy_points": "41.24",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Lavine_Zach_chi20.jpg",
-        "token_id": "23"
-    },
-    {
-        "name": "Andre Drummond",
-        "position": "C",
-        "team": "CLE",
-        "fantasy_points": "41.20",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Drummond_Andre_cle20.jpg",
-        "token_id": "24"
-    },
-    {
-        "name": "Christian Wood",
-        "position": "PF,C",
-        "team": "HOU",
-        "fantasy_points": "40.69",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Wood_Christian_hou20.jpg",
-        "token_id": "25"
-    },
-    {
-        "name": "Zion Williamson",
-        "position": "PF",
-        "team": "NOP",
-        "fantasy_points": "40.24",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Williamson_Zion_nop20.jpg",
-        "token_id": "26"
-    },
-    {
-        "name": "Bam Adebayo",
-        "position": "PF,C",
-        "team": "MIA",
-        "fantasy_points": "39.90",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Adebayo_Bam_mia20.jpg",
-        "token_id": "27"
-    },
-    {
-        "name": "Clint Capela",
-        "position": "C",
-        "team": "ATL",
-        "fantasy_points": "39.87",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Ndumbacapela_Clint_atl20.jpg",
-        "token_id": "28"
-    },
-    {
-        "name": "Fred VanVleet",
-        "position": "PG,SG",
-        "team": "TOR",
-        "fantasy_points": "39.78",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Vanvleet_Fred_tor20.jpg",
-        "token_id": "29"
-    },
-    {
-        "name": "Paul George",
-        "position": "SF,PF",
-        "team": "LAC",
-        "fantasy_points": "38.82",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/George_Paul_lac20.jpg",
-        "token_id": "30"
-    },
-    {
-        "name": "Ben Simmons",
-        "position": "PG",
-        "team": "PHI",
-        "fantasy_points": "38.78",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Simmons_Ben_phi20.jpg",
-        "token_id": "31"
-    },
-    {
-        "name": "Rudy Gobert",
-        "position": "C",
-        "team": "UTA",
-        "fantasy_points": "38.77",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Gobert_Rudy_uta20.jpg",
-        "token_id": "32"
-    },
-    {
-        "name": "Shai Gilgeous-Alexander",
-        "position": "PG,SG,SF",
-        "team": "OKL",
-        "fantasy_points": "38.77",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Gilgeousalexander_Shai_okc20.jpg",
-        "token_id": "33"
-    },
-    {
-        "name": "Pascal Siakam",
-        "position": "PF,C",
-        "team": "TOR",
-        "fantasy_points": "38.70",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Siakam_Pascal_tor20.jpg",
-        "token_id": "34"
-    },
-    {
-        "name": "De'Aaron Fox",
-        "position": "PG",
-        "team": "SAC",
-        "fantasy_points": "38.39",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Fox_Deaaron_sac20.jpg",
-        "token_id": "35"
-    },
-    {
-        "name": "Brandon Ingram",
-        "position": "SF,PF",
-        "team": "NOP",
-        "fantasy_points": "38.27",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Ingram_Brandon_nop20.jpg",
-        "token_id": "36"
-    },
-    {
-        "name": "Jaylen Brown",
-        "position": "SG,SF",
-        "team": "BOS",
-        "fantasy_points": "37.87",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Brown_Jaylen_bos20.jpg",
-        "token_id": "37"
-    },
-    {
-        "name": "Donovan Mitchell",
-        "position": "PG,SG",
-        "team": "UTA",
-        "fantasy_points": "37.84",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Mitchell_Donovan_uta20.jpg",
-        "token_id": "38"
-    },
-    {
-        "name": "DeMar DeRozan",
-        "position": "SG,SF,PF",
-        "team": "SAS",
-        "fantasy_points": "37.73",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/DeRozan_DeMar_sas20.jpg",
-        "token_id": "39"
-    },
-    {
-        "name": "Jerami Grant",
-        "position": "SF,PF",
-        "team": "DET",
-        "fantasy_points": "37.11",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Grant_Jerami_det20.jpg",
-        "token_id": "40"
-    },
-    {
-        "name": "Malcolm Brogdon",
-        "position": "PG,SG",
-        "team": "IND",
-        "fantasy_points": "37.07",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Brogdon_Malcolm_ind20.jpg",
-        "token_id": "41"
-    },
-    {
-        "name": "Khris Middleton",
-        "position": "SF,PF",
-        "team": "MIL",
-        "fantasy_points": "36.47",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Middleton_Khris_mil20.jpg",
-        "token_id": "42"
-    },
-    {
-        "name": "Kristaps Porzingis",
-        "position": "PF,C",
-        "team": "DAL",
-        "fantasy_points": "36.43",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Porzingis_Kristaps_dal20.jpg",
-        "token_id": "43"
-    },
-    {
-        "name": "Tobias Harris",
-        "position": "SF,PF",
-        "team": "PHI",
-        "fantasy_points": "36.37",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Harris_Tobias_phi20.jpg",
-        "token_id": "44"
-    },
-    {
-        "name": "Gordon Hayward",
-        "position": "SG,SF",
-        "team": "CHA",
-        "fantasy_points": "36.23",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Hayward_Gordon_cha20.jpg",
-        "token_id": "45"
-    },
-    {
-        "name": "Chris Paul",
-        "position": "PG",
-        "team": "PHX",
-        "fantasy_points": "35.74",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Paul_Chris_phx20.jpg",
-        "token_id": "46"
-    },
-    {
-        "name": "Victor Oladipo",
-        "position": "SG,SF",
-        "team": "HOU",
-        "fantasy_points": "35.69",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Oladipo_Victor_ind20.jpg",
-        "token_id": "47"
-    },
-    {
-        "name": "Kyle Lowry",
-        "position": "PG",
-        "team": "TOR",
-        "fantasy_points": "35.10",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Lowry_Kyle_tor19.jpg",
-        "token_id": "48"
-    },
-    {
-        "name": "Dejounte Murray",
-        "position": "PG,SG",
-        "team": "SAS",
-        "fantasy_points": "34.85",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Murray_Dejounte_sas20.jpg",
-        "token_id": "49"
-    },
-    {
-        "name": "LaMelo Ball",
-        "position": "PG,SG",
-        "team": "CHA",
-        "fantasy_points": "34.65",
-        "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Ball_Lamelo_cha20.jpg",
-        "token_id": "50"
-    }
-]
+{
+    "league": [
+        {
+            "name": "Nikola Jokic",
+            "position": "PF,C",
+            "team": "DEN",
+            "fantasy_points": "55.12",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Jokic_Nikola_den20.jpg",
+            "token_id": "1"
+        },
+        {
+            "name": "Giannis Antetokounmpo",
+            "position": "PF,C",
+            "team": "MIL",
+            "fantasy_points": "54.14",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Antetokounmpo_Giannis_mil20.jpg",
+            "token_id": "2"
+        },
+        {
+            "name": "Joel Embiid",
+            "position": "PF,C",
+            "team": "PHI",
+            "fantasy_points": "52.37",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Embiid_Joel_phi20.jpg",
+            "token_id": "3"
+        },
+        {
+            "name": "Luka Doncic",
+            "position": "PG,SG",
+            "team": "DAL",
+            "fantasy_points": "50.98",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Doncic_Luka_dal20.jpg",
+            "token_id": "4"
+        },
+        {
+            "name": "James Harden",
+            "position": "PG,SG",
+            "team": "BRO",
+            "fantasy_points": "50.56",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Harden_James_hou19.jpg",
+            "token_id": "5"
+        },
+        {
+            "name": "Bradley Beal",
+            "position": "SG,SF",
+            "team": "WAS",
+            "fantasy_points": "46.88",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Beal_Bradley_was20.jpg",
+            "token_id": "6"
+        },
+        {
+            "name": "Kevin Durant",
+            "position": "SF,PF",
+            "team": "BRO",
+            "fantasy_points": "46.76",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Durant_Kevin_bkn20.jpg",
+            "token_id": "7"
+        },
+        {
+            "name": "LeBron James",
+            "position": "PG,SG,SF",
+            "team": "LAL",
+            "fantasy_points": "46.50",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/James_LeBron_lal20.jpg",
+            "token_id": "8"
+        },
+        {
+            "name": "Nikola Vucevic",
+            "position": "C",
+            "team": "ORL",
+            "fantasy_points": "46.32",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Vucevic_Nikola_orl20.jpg",
+            "token_id": "9"
+        },
+        {
+            "name": "Damian Lillard",
+            "position": "PG",
+            "team": "POR",
+            "fantasy_points": "45.91",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Lillard_Damian_por20.jpg",
+            "token_id": "10"
+        },
+        {
+            "name": "Stephen Curry",
+            "position": "PG,SG",
+            "team": "GSW",
+            "fantasy_points": "45.15",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Curry_Stephen_gsw20.jpg",
+            "token_id": "11"
+        },
+        {
+            "name": "Kawhi Leonard",
+            "position": "SG,SF",
+            "team": "LAC",
+            "fantasy_points": "44.66",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Leonard_Kawhi_lac20.jpg",
+            "token_id": "12"
+        },
+        {
+            "name": "Jimmy Butler",
+            "position": "SF,PF",
+            "team": "MIA",
+            "fantasy_points": "44.65",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Butler_Jimmy_mia20.jpg",
+            "token_id": "13"
+        },
+        {
+            "name": "Karl-Anthony Towns",
+            "position": "C",
+            "team": "MIN",
+            "fantasy_points": "43.93",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Towns_Karlanthony_min20.jpg",
+            "token_id": "14"
+        },
+        {
+            "name": "Anthony Davis",
+            "position": "PF,C",
+            "team": "LAL",
+            "fantasy_points": "43.68",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Davis_Anthony_lal20.jpg",
+            "token_id": "15"
+        },
+        {
+            "name": "Russell Westbrook",
+            "position": "PG",
+            "team": "WAS",
+            "fantasy_points": "43.64",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Westbrook_Russell_was20.jpg",
+            "token_id": "16"
+        },
+        {
+            "name": "Kyrie Irving",
+            "position": "PG",
+            "team": "BRO",
+            "fantasy_points": "43.61",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Irving_Kyrie_bkn20.jpg",
+            "token_id": "17"
+        },
+        {
+            "name": "Julius Randle",
+            "position": "PF,C",
+            "team": "NYK",
+            "fantasy_points": "42.97",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Randle_Julius_nyk20.jpg",
+            "token_id": "18"
+        },
+        {
+            "name": "Domantas Sabonis",
+            "position": "PF,C",
+            "team": "IND",
+            "fantasy_points": "42.82",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Sabonis_Domantas_ind20.jpg",
+            "token_id": "19"
+        },
+        {
+            "name": "Trae Young",
+            "position": "PG",
+            "team": "ATL",
+            "fantasy_points": "42.24",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Young_Trae_atl20.jpg",
+            "token_id": "20"
+        },
+        {
+            "name": "Jayson Tatum",
+            "position": "SF,PF",
+            "team": "BOS",
+            "fantasy_points": "42.12",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Tatum_Jayson_bos20.jpg",
+            "token_id": "22"
+        },
+        {
+            "name": "Zach LaVine",
+            "position": "SG,SF",
+            "team": "CHI",
+            "fantasy_points": "41.24",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Lavine_Zach_chi20.jpg",
+            "token_id": "23"
+        },
+        {
+            "name": "Andre Drummond",
+            "position": "C",
+            "team": "CLE",
+            "fantasy_points": "41.20",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Drummond_Andre_cle20.jpg",
+            "token_id": "24"
+        },
+        {
+            "name": "Christian Wood",
+            "position": "PF,C",
+            "team": "HOU",
+            "fantasy_points": "40.69",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Wood_Christian_hou20.jpg",
+            "token_id": "25"
+        },
+        {
+            "name": "Zion Williamson",
+            "position": "PF",
+            "team": "NOP",
+            "fantasy_points": "40.24",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Williamson_Zion_nop20.jpg",
+            "token_id": "26"
+        },
+        {
+            "name": "Bam Adebayo",
+            "position": "PF,C",
+            "team": "MIA",
+            "fantasy_points": "39.90",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Adebayo_Bam_mia20.jpg",
+            "token_id": "27"
+        },
+        {
+            "name": "Clint Capela",
+            "position": "C",
+            "team": "ATL",
+            "fantasy_points": "39.87",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Ndumbacapela_Clint_atl20.jpg",
+            "token_id": "28"
+        },
+        {
+            "name": "Fred VanVleet",
+            "position": "PG,SG",
+            "team": "TOR",
+            "fantasy_points": "39.78",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Vanvleet_Fred_tor20.jpg",
+            "token_id": "29"
+        },
+        {
+            "name": "Paul George",
+            "position": "SF,PF",
+            "team": "LAC",
+            "fantasy_points": "38.82",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/George_Paul_lac20.jpg",
+            "token_id": "30"
+        },
+        {
+            "name": "Ben Simmons",
+            "position": "PG",
+            "team": "PHI",
+            "fantasy_points": "38.78",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Simmons_Ben_phi20.jpg",
+            "token_id": "31"
+        },
+        {
+            "name": "Rudy Gobert",
+            "position": "C",
+            "team": "UTA",
+            "fantasy_points": "38.77",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Gobert_Rudy_uta20.jpg",
+            "token_id": "32"
+        },
+        {
+            "name": "Shai Gilgeous-Alexander",
+            "position": "PG,SG,SF",
+            "team": "OKL",
+            "fantasy_points": "38.77",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Gilgeousalexander_Shai_okc20.jpg",
+            "token_id": "33"
+        },
+        {
+            "name": "Pascal Siakam",
+            "position": "PF,C",
+            "team": "TOR",
+            "fantasy_points": "38.70",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Siakam_Pascal_tor20.jpg",
+            "token_id": "34"
+        },
+        {
+            "name": "De'Aaron Fox",
+            "position": "PG",
+            "team": "SAC",
+            "fantasy_points": "38.39",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Fox_Deaaron_sac20.jpg",
+            "token_id": "35"
+        },
+        {
+            "name": "Brandon Ingram",
+            "position": "SF,PF",
+            "team": "NOP",
+            "fantasy_points": "38.27",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Ingram_Brandon_nop20.jpg",
+            "token_id": "36"
+        },
+        {
+            "name": "Jaylen Brown",
+            "position": "SG,SF",
+            "team": "BOS",
+            "fantasy_points": "37.87",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Brown_Jaylen_bos20.jpg",
+            "token_id": "37"
+        },
+        {
+            "name": "Donovan Mitchell",
+            "position": "PG,SG",
+            "team": "UTA",
+            "fantasy_points": "37.84",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Mitchell_Donovan_uta20.jpg",
+            "token_id": "38"
+        },
+        {
+            "name": "DeMar DeRozan",
+            "position": "SG,SF,PF",
+            "team": "SAS",
+            "fantasy_points": "37.73",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/DeRozan_DeMar_sas20.jpg",
+            "token_id": "39"
+        },
+        {
+            "name": "Jerami Grant",
+            "position": "SF,PF",
+            "team": "DET",
+            "fantasy_points": "37.11",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Grant_Jerami_det20.jpg",
+            "token_id": "40"
+        },
+        {
+            "name": "Malcolm Brogdon",
+            "position": "PG,SG",
+            "team": "IND",
+            "fantasy_points": "37.07",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Brogdon_Malcolm_ind20.jpg",
+            "token_id": "41"
+        },
+        {
+            "name": "Khris Middleton",
+            "position": "SF,PF",
+            "team": "MIL",
+            "fantasy_points": "36.47",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Middleton_Khris_mil20.jpg",
+            "token_id": "42"
+        },
+        {
+            "name": "Kristaps Porzingis",
+            "position": "PF,C",
+            "team": "DAL",
+            "fantasy_points": "36.43",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Porzingis_Kristaps_dal20.jpg",
+            "token_id": "43"
+        },
+        {
+            "name": "Tobias Harris",
+            "position": "SF,PF",
+            "team": "PHI",
+            "fantasy_points": "36.37",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Harris_Tobias_phi20.jpg",
+            "token_id": "44"
+        },
+        {
+            "name": "Gordon Hayward",
+            "position": "SG,SF",
+            "team": "CHA",
+            "fantasy_points": "36.23",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Hayward_Gordon_cha20.jpg",
+            "token_id": "45"
+        },
+        {
+            "name": "Chris Paul",
+            "position": "PG",
+            "team": "PHX",
+            "fantasy_points": "35.74",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Paul_Chris_phx20.jpg",
+            "token_id": "46"
+        },
+        {
+            "name": "Victor Oladipo",
+            "position": "SG,SF",
+            "team": "HOU",
+            "fantasy_points": "35.69",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Oladipo_Victor_ind20.jpg",
+            "token_id": "47"
+        },
+        {
+            "name": "Kyle Lowry",
+            "position": "PG",
+            "team": "TOR",
+            "fantasy_points": "35.10",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Lowry_Kyle_tor19.jpg",
+            "token_id": "48"
+        },
+        {
+            "name": "Dejounte Murray",
+            "position": "PG,SG",
+            "team": "SAS",
+            "fantasy_points": "34.85",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Murray_Dejounte_sas20.jpg",
+            "token_id": "49"
+        },
+        {
+            "name": "LaMelo Ball",
+            "position": "PG,SG",
+            "team": "CHA",
+            "fantasy_points": "34.65",
+            "pic": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Ball_Lamelo_cha20.jpg",
+            "token_id": "50"
+        }
+    ]
+}
