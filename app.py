@@ -32,27 +32,16 @@ LEAGUE_SIZE = 50
 @cross_origin()
 def to_send(entity_id, shares_owned, shares_in_circulation, dividend_fund):
     if entity_id > LEAGUE_SIZE:
-        entity_id -= LEAGUE_SIZE
+        entity_id -= LEAGUE_SIZE   
 
-    entity_name = league_data()[entity_id - 1]['name']
-    fantasy_table = returnFantasyTable()
+    league = league_data()
+    entity_held_score = float(league[entity_id - 1]['fantasy_points'])
 
-    #technically not of past week, gotta change
-    rows = list(fantasy_table.children)
-    sum_scores = 0.0
-    res = 0
-    row_counter=0
-    for row in rows:
-        if row != rows[0] and row_counter < 11:
-            sum_scores += float(list(row.children)[3].get_text())
-        row_counter += 1
+    sum_scores = 0.0 
+    for entity in league:
+        sum_scores += float(entity["fantasy_points"])
 
-    for row in rows:
-        if row != rows[0]:
-            if entity_name == list(list(row.children)[1])[0].get_text():
-                entity_score_share = float(list(row.children)[3].get_text()) / sum_scores
-                res = (shares_owned/shares_in_circulation)*entity_score_share*dividend_fund
-                break
+    res = (shares_owned/shares_in_circulation)*(entity_held_score / sum_scores)*dividend_fund
            
     return {"to_send": int(res)}
 
