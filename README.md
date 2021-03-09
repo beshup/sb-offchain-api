@@ -4,7 +4,7 @@ Startup:
 
 ```
 python -m venv env
-. env/bin/activate
+. env\Scripts\activate
 pip install -r requirements.txt  # Install all the libs.
 python app.py
 ```
